@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/option_color"
+    android:paddingHorizontal="21dp">
+
+    <ImageButton
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="29dp"
+        android:background="@color/option_color"
+        android:contentDescription="@string/setting_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/setting_button" />
+
+    <TextView
+        android:id="@+id/allWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/text_color_1"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/primary_color"
+        android:text="@string/all_words"
+        android:paddingVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/settingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="44dp"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/allWords">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/primary_color"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:paddingHorizontal="44dp"
+            android:paddingVertical="36dp"
+            android:text="@string/my_word"
+            android:textColor="@color/text_color_1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/primary_color"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="36dp"
+            android:text="@string/learned"
+            android:textColor="@color/text_color_1"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/innerTree"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/inner_tree"
+        android:contentDescription="@string/inner_tree"/>
+
+    <TextView
+        android:id="@+id/learnNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/text_color_1"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/primary_color"
+        android:text="@string/learn_new"
+        android:paddingVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/innerTree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/Repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/text_color_1"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/primary_color"
+        android:text="@string/repeat"
+        android:paddingVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/learnNew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="25dp"
+        android:elevation="4dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

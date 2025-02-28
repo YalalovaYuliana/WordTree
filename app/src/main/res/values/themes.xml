@@ -3,6 +3,8 @@
     <style name="Base.Theme.WordTree" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="fontFamily">@font/ledger</item>
+        <item name="colorPrimary">#683B35</item>
     </style>
 
     <style name="Theme.WordTree" parent="Base.Theme.WordTree" />

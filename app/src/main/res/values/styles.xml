@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RadioButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/radio_button_background</item> <!-- Фон кнопки -->
+        <item name="android:button">@null</item> <!-- Убираем стандартный кружок -->
+        <item name="android:textColor">@drawable/text_color_selector</item> <!-- Цвет текста -->
+        <item name="android:gravity">center</item> <!-- Выравнивание текста по центру -->
+        <item name="android:layout_marginStart">24dp</item> <!-- Отступы -->
+        <item name="android:layout_marginEnd">24dp</item> <!-- Отступы -->
+        <item name="android:paddingTop">8dp</item> <!-- Отступы -->
+        <item name="android:paddingBottom">8dp</item> <!-- Отступы -->
+        <item name="android:textSize">30sp</item> <!-- Размер текста -->
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="ActionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/option_color_unselected</item>
+        <item name="android:textColor">@drawable/text_color_selector</item> <!-- Цвет текста -->
+        <item name="android:layout_marginStart">24dp</item> <!-- Отступы -->
+        <item name="android:layout_marginEnd">24dp</item> <!-- Отступы -->
+        <item name="android:paddingTop">8dp</item> <!-- Отступы -->
+        <item name="android:paddingBottom">8dp</item> <!-- Отступы -->
+        <item name="android:textSize">30sp</item> <!-- Размер текста -->
+        <item name="cornerRadius">30dp</item>
+    </style>
+
+</resources>

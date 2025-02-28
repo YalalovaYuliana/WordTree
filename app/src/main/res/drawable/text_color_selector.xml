@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние "выбрано" -->
+    <item android:state_checked="true" android:color="@color/primary_color" /> <!-- Цвет текста при выборе -->
+
+    <!-- Состояние "не выбрано" -->
+    <item android:color="@color/primary_color_50" /> <!-- Цвет текста с 50% прозрачностью -->
+</selector>

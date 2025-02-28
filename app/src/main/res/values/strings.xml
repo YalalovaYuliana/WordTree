@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">WordTree</string>
+    <string name="app_name">Words Tree</string>
+    <string name="start">Начать</string>
+    <string name="choose_word">Какое количество слов Вы хотите учить в день?</string>
+    <string name="claim">Подтвердить</string>
+    <string name="all_words">Все слова</string>
+    <string name="my_word">Мои</string>
+    <string name="learned">Изучено</string>
+    <string name="learn_new">Учить новые</string>
+    <string name="repeat">Повторить</string>
+    <string name="setting_button">Настройки</string>
+    <string name="inner_tree">Дерево</string>
+    <string name="sample_text">| kæt |\nКот, кошка\nA young cat is a kitten</string>
+    <string name="word_name">Cat</string>
+    <string name="back_button">Кнопка назад</string>
 </resources>
