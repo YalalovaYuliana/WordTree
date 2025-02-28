@@ -8,4 +8,6 @@
     <color name="text_color_1">#FEFEE4</color>
     <color name="option_color">#DBC6B0</color>
     <color name="option_color_unselected">#80DBC6B0</color>
+    <color name="category">#A3683B35</color>
+    <color name="search_word_color">#85A890</color>
 </resources>

@@ -13,4 +13,5 @@
     <string name="sample_text">| kæt |\nКот, кошка\nA young cat is a kitten</string>
     <string name="word_name">Cat</string>
     <string name="back_button">Кнопка назад</string>
+    <string name="word_search">Поиск слов...</string>
 </resources>
